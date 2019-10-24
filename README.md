@@ -1,11 +1,18 @@
-# Webpack
+# Webpack + babel
 
-> ### Webpack
-```sh
-npm install webpack webpack-cli webpack-dev-server -D
-```
+# npm i webpack webpack-cli @babel/core @babel/plugin-proposal-object-rest-spread @babel/preset-env babel-loader -D
 
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+# index.html
 
---https://dillinger.io/
+
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+    <h1>Webpack ES6 - Babel and Transpilers </h1>
+</body>
+</html>
+ 
